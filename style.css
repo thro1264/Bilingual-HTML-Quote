@@ -70,25 +70,29 @@ h1{
 div{
 	text-align: justify;
 	margin: 0;
-	max-width: 95%;
+	max-width: 96%;
 	padding-top: 10%;
-	padding-left: 2.5%;
+	padding-left: 1.5%;
 	padding-right: 2.5%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	font-family: 'Helvetica', sans-serif;
-	/*font-size: 4.4em;*/
 	font-size: 4.25vw;
 	font-weight: 700;
 	text-transform: uppercase;
+	color: #222;
 }
 p{
-	transition: transform 250ms;
+	transition: transform 500ms;
 	margin: 0;
 }
 p:hover{
-	transform: translateY(-15px);
+	transform: translate(-10px);
+	transform: translateX(5px);
+	transform: translate3d(-10px,-2.5px, 0px);
+	font-weight: 700;
+	color: #000;
 	/*border-top: 10px solid #d0d0d0;*/
 }
 #p1::before{
@@ -543,7 +547,10 @@ p:hover{
 	}
 }
 
-/*
-"A cabello vamos p'al monte. Yo trabajo sin ropreso Para poderme casar, Y si lo llego a lograr, Seré un guajiro dichoso. Soy guajiro y carretero. Y en el campo vivo bien, Porque el campo es el edén";
-"On horseback we go to the countryside. I work without rest, so someday I can get married and if I achieve it, I will be a fortunate person. I'm a farmer and cart driver and in the country I live well, because the country is Eden";
-*/
+
+@media screen and (max-width: 600px){  
+	div{
+		font-size: 5em;
+	}
+}
+
