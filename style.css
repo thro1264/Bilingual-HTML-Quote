@@ -1,0 +1,549 @@
+/*html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin:  0;
+	width: 100%;
+	height:  100%;
+}
+header{
+	margin: 0;
+}
+h1{
+	margin: 0;
+}
+
+div{
+	text-align: justify;
+}
+p{
+	margin: 0;
+	width: 95%;
+	padding-top: 5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 4.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: transform 250ms;
+}
+p:hover{
+	/*transform: translateY(-10px);*/
+	/*border-top: 10px solid #d0d0d0;*/
+/*}
+p::before{
+	animation: animacion 10s linear infinite;
+	content: "A cabello vamos p'al monte. Yo trabajo sin ropreso Para poderme casar, Y si lo llego a lograr, Seré un guajiro dichoso. Soy guajiro y carretero. Y en el campo vivo bien, Porque el campo es el edén";
+}
+@keyframes animacion {
+	0%{ 
+		content: "A cabello vamos p'al monte. Yo trabajo sin ropreso Para poderme casar, Y si lo llego a lograr, Seré un guajiro dichoso. Soy guajiro y carretero. Y en el campo vivo bien, Porque el campo es el edén";
+	}
+	50%{ 
+		content: "On horseback we go to the countryside. I work without rest, so someday I can get married and if I achieve it, I will be a fortunate person. I'm a farmer and cart driver and in the country I live well, because the country is Eden";
+	}
+	100%{ 
+		content: "A cabello vamos p'al monte. Yo trabajo sin ropreso Para poderme casar, Y si lo llego a lograr, Seré un guajiro dichoso. Soy guajiro y carretero. Y en el campo vivo bien, Porque el campo es el edén";
+	}
+}*/
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin:  0;
+	width: 100%;
+	height:  100%;
+}
+header{
+	margin: 0;
+}
+h1{
+	margin: 0;
+}
+
+div{
+	text-align: justify;
+	margin: 0;
+	max-width: 95%;
+	padding-top: 10%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: 'Helvetica', sans-serif;
+	/*font-size: 4.4em;*/
+	font-size: 4.25vw;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+p{
+	transition: transform 250ms;
+	margin: 0;
+}
+p:hover{
+	transform: translateY(-15px);
+	/*border-top: 10px solid #d0d0d0;*/
+}
+#p1::before{
+	animation: animacion1 10s linear infinite;
+	content: "A";
+}
+#p2::before{
+	animation: animacion2 10s linear infinite;
+	content: " cabello";
+}
+#p3::before{
+	animation: animacion3 10s linear infinite;
+	content: " vamos";
+}
+#p4::before{
+	animation: animacion4 10s linear infinite;
+	content: " p'al";
+}
+#p5::before{
+	animation: animacion5 10s linear infinite;
+	content: " monte.";
+}
+#p6::before{
+	animation: animacion6 10s linear infinite;
+	content: " Yo";
+}
+#p7::before{
+	animation: animacion7 10s linear infinite;
+	content: " trabajo";
+}
+#p8::before{
+	animation: animacion8 10s linear infinite;
+	content: " sin";
+}
+#p9::before{
+	animation: animacion9 10s linear infinite;
+	content: " ropeso,";
+}
+#p10::before{
+	animation: animacion10 10s linear infinite;
+	content: " para";
+}
+#p11::before{
+	animation: animacion11 10s linear infinite;
+	content: " poderme";
+}
+#p12::before{
+	animation: animacion12 10s linear infinite;
+	content: " casar";
+}
+#p13::before{
+	animation: animacion13 10s linear infinite;
+	content: " Y";
+}
+#p14::before{
+	animation: animacion14 10s linear infinite;
+	content: " si";
+}
+#p15::before{
+	animation: animacion15 10s linear infinite;
+	content: " llego a lograr";
+}
+#p16::before{
+	animation: animacion16 10s linear infinite;
+	content: " Seré";
+}
+#p18::before{
+	animation: animacion18 10s linear infinite;
+	content: " un guajiro dichose";
+}
+#p19::before{
+	animation: animacion19 10s linear infinite;
+	content: " Soy";
+}
+#p20::before{
+	animation: animacion20 10s linear infinite;
+	content: " guajiro";
+}
+#p21::before{
+	animation: animacion21 10s linear infinite;
+	content: " y";
+}
+#p22::before{
+	animation: animacion22 10s linear infinite;
+	content: " dichoso carretero";
+}
+#p23::before{
+	animation: animacion23 10s linear infinite;
+	content: " Y";
+}
+#p24::before{
+	animation: animacion24 10s linear infinite;
+	content: " en";
+}
+#p25::before{
+	animation: animacion25 10s linear infinite;
+	content: " el campo";
+}
+#p26::before{
+	animation: animacion26 10s linear infinite;
+	content: " vivo";
+}
+#p27::before{
+	animation: animacion27 10s linear infinite;
+	content: " bien";
+}
+#p28::before{
+	animation: animacion28 10s linear infinite;
+	content: " porque";
+}
+#p29::before{
+	animation: animacion29 10s linear infinite;
+	content: " el campo";
+}
+#p30::before{
+	animation: animacion30 10s linear infinite;
+	content: " es";
+}
+#p31::before{
+	animation: animacion31 10s linear infinite;
+	content: " el edén";
+}
+
+@keyframes animacion1 {
+	0%{ 
+		content: "\00a0 A";
+	}
+	50%{ 
+		content: "\00a0 On";
+	}
+	100%{ 
+		content: "\00a0 A";
+	}
+}
+@keyframes animacion2 {
+	0%{ 
+		content: "\00a0 cabello";
+	}
+	50%{ 
+		content: "\00a0 horseback";
+	}
+	100%{ 
+		content: "\00a0 cabello";
+	}
+}
+@keyframes animacion3 {
+	0%{ 
+		content: "\00a0 vamos";
+	}
+	50%{ 
+		content: "\00a0 we\00a0 go";
+	}
+	100%{ 
+		content: "\00a0 vamos";
+	}
+}
+@keyframes animacion4 {
+	0%{ 
+		content: "\00a0 p'al";
+	}
+	50%{ 
+		content: "\00a0 to\00a0 the";
+	}
+	100%{ 
+		content: "\00a0 p'al";
+	}
+}
+@keyframes animacion5 {
+	0%{ 
+		content: "\00a0 monte";
+	}
+	50%{ 
+		content: "\00a0 countryside";
+	}
+	100%{ 
+		content: "\00a0 monte";
+	}
+}
+@keyframes animacion6 {
+	0%{ 
+		content: "\00a0 Yo";
+	}
+	50%{ 
+		content: "\00a0 I";
+	}
+	100%{ 
+		content: "\00a0 Yo";
+	}
+}
+@keyframes animacion7 {
+	0%{ 
+		content: "\00a0 trabajo";
+	}
+	50%{ 
+		content: "\00a0 work";
+	}
+	100%{ 
+		content: "\00a0 trabajo";
+	}
+}
+@keyframes animacion8 {
+	0%{ 
+		content: "\00a0 sin";
+	}
+	50%{ 
+		content: "\00a0 without";
+	}
+	100%{ 
+		content: "\00a0 sin";
+	}
+}
+@keyframes animacion9 {
+	0%{ 
+		content: "\00a0 ropreso";
+	}
+	50%{ 
+		content: "\00a0 rest";
+	}
+	100%{ 
+		content: "\00a0 ropreso";
+	}
+}
+@keyframes animacion10 {
+	0%{ 
+		content: "\00a0 para";
+	}
+	50%{ 
+		content: "\00a0 so";
+	}
+	100%{ 
+		content: "\00a0 para";
+	}
+}
+@keyframes animacion11 {
+	0%{ 
+		content: "\00a0 poderme";
+	}
+	50%{ 
+		content: "\00a0 someday\00a0 I\00a0 can";
+	}
+	100%{ 
+		content: "\00a0 poderme";
+	}
+}
+@keyframes animacion12 {
+	0%{ 
+		content: "\00a0 casar";
+	}
+	50%{ 
+		content: "\00a0 marry";
+	}
+	100%{ 
+		content: "\00a0 casar";
+	}
+}
+@keyframes animacion13 {
+	0%{ 
+		content: "\00a0 Y";
+	}
+	50%{ 
+		content: "\00a0 and";
+	}
+	100%{ 
+		content: "\00a0 Y";
+	}
+}
+@keyframes animacion14 {
+	0%{ 
+		content: "\00a0 si";
+	}
+	50%{ 
+		content: "\00a0 if";
+	}
+	100%{ 
+		content: "\00a0 si";
+	}
+}
+@keyframes animacion15 {
+	0%{ 
+		content: "\00a0 llego\00a0 a\00a0 lograr";
+	}
+	50%{ 
+		content: "\00a0 i\00a0 acheive\00a0 it";
+	}
+	100%{ 
+		content: "\00a0 llego\00a0 a\00a0 lograr";
+	}
+}
+@keyframes animacion16 {
+	0%{ 
+		content: "\00a0 Seré";
+	}
+	50%{ 
+		content: "\00a0 I\00a0 will\00a0 be";
+	}
+	100%{ 
+		content: "\00a0 Seré";
+	}
+}
+@keyframes animacion18 {
+	0%{ 
+		content: "\00a0 un\00a0 guajiro\00a0 dichose";
+	}
+	50%{ 
+		content: "\00a0 a\00a0 fortunate\00a0 person";
+	}
+	100%{ 
+		content: "\00a0 un\00a0 guajiro\00a0 dichose";
+	}
+}
+@keyframes animacion19 {
+	0%{ 
+		content: "\00a0 Soy";
+	}
+	50%{ 
+		content: "\00a0 I\00a0 am";
+	}
+	100%{ 
+		content: "\00a0 Soy";
+	}
+}
+@keyframes animacion20 {
+	0%{ 
+		content: "\00a0 guajiro";
+	}
+	50%{ 
+		content: "\00a0 a\00a0 farmer";
+	}
+	100%{ 
+		content: "\00a0 guajiro";
+	}
+}
+@keyframes animacion21 {
+	0%{ 
+		content: "\00a0 y";
+	}
+	50%{ 
+		content: "\00a0 and";
+	}
+	100%{ 
+		content: "\00a0 y";
+	}
+}
+@keyframes animacion22 {
+	0%{ 
+		content: "\00a0 carretero.";
+	}
+	50%{ 
+		content: "\00a0 cart driver.";
+	}
+	100%{ 
+		content: "\00a0 carretero.";
+	}
+}
+@keyframes animacion23 {
+	0%{ 
+		content: "\00a0 Y";
+	}
+	50%{ 
+		content: "\00a0 and";
+	}
+	100%{ 
+		content: "\00a0 Y";
+	}
+}
+@keyframes animacion24 {
+	0%{ 
+		content: "\00a0 en";
+	}
+	50%{ 
+		content: "\00a0 in";
+	}
+	100%{ 
+		content: "\00a0 en";
+	}
+}
+@keyframes animacion25 {
+	0%{ 
+		content: "\00a0 el\00a0 campo";
+	}
+	50%{ 
+		content: "\00a0 the\00a0 country";
+	}
+	100%{ 
+		content: "\00a0 el\00a0 campo";
+	}
+}
+@keyframes animacion26 {
+	0%{ 
+		content: "\00a0 vivo";
+	}
+	50%{ 
+		content: "\00a0 I\00a0 live";
+	}
+	100%{ 
+		content: "\00a0 vivo";
+	}
+}
+@keyframes animacion27 {
+	0%{ 
+		content: "\00a0 bien";
+	}
+	50%{ 
+		content: "\00a0 well";
+	}
+	100%{ 
+		content: "\00a0 bien";
+	}
+}
+@keyframes animacion28 {
+	0%{ 
+		content: "\00a0 Porque";
+	}
+	50%{ 
+		content: "\00a0 because";
+	}
+	100%{ 
+		content: "\00a0 Porque";
+	}
+}
+@keyframes animacion29 {
+	0%{ 
+		content: "\00a0 el\00a0  campo";
+	}
+	50%{ 
+		content: "\00a0 the\00a0  country";
+	}
+	100%{ 
+		content: "\00a0 el campo";
+	}
+}
+@keyframes animacion30 {
+	0%{ 
+		content: "\00a0 es";
+	}
+	50%{ 
+		content: "\00a0 is";
+	}
+	100%{ 
+		content: "\00a0 es";
+	}
+}
+@keyframes animacion31 {
+	0%{ 
+		content: "\00a0 el\00a0 edén";
+	}
+	50%{ 
+		content: "\00a0 Eden";
+	}
+	100%{ 
+		content: "\00a0 el\00a0 edén";
+	}
+}
+
+/*
+"A cabello vamos p'al monte. Yo trabajo sin ropreso Para poderme casar, Y si lo llego a lograr, Seré un guajiro dichoso. Soy guajiro y carretero. Y en el campo vivo bien, Porque el campo es el edén";
+"On horseback we go to the countryside. I work without rest, so someday I can get married and if I achieve it, I will be a fortunate person. I'm a farmer and cart driver and in the country I live well, because the country is Eden";
+*/
